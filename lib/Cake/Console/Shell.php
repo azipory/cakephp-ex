@@ -250,7 +250,7 @@ class Shell extends CakeObject {
  */
 	protected function _welcome() {
 		$this->out();
-		$this->out(__d('cake_console', '<info>Welcome to CakePHP %s Console</info>', 'v' . Configure::version()));
+		$this->out(__d('cake_console', '<info>Welcome to cakephp %s Console</info>', 'v' . Configure::version()));
 		$this->hr();
 		$this->out(__d('cake_console', 'App : %s', APP_DIR));
 		$this->out(__d('cake_console', 'Path: %s', APP));
